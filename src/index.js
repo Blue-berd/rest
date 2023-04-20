@@ -19,7 +19,7 @@ app.listen(3000, () => {
 
 mongoose
   .connect(
-    "mongodb+srv://jaysardar:jaysardar1@cluster0.8tlwu32.mongodb.net/JAYDB"
+    "mongodb://localhost:27017"
   )
   .then(() => console.log("connected to mongodb"))
   .catch((err) => {
